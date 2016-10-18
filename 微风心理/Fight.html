@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script type="text/javascript" src="js.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <a href="#">广东</a>
+           <span id="triangle"></span>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">你好，请登录</a></li>
+                    <li><a href="#">免费注册</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">我的收藏</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="header-content">
+                <a href="#">
+                    <img src="images/header_1.jpg">
+                </a>
+                <button>搜索</button>
+                <input type="text" class="input" onfocus="this.className='input'" onblur="this.className='input'">
+
+            </div>
+        </div>
+    </header>
+
+
+    <div class="nav_1">
+        <nav class="nav_1_content">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">心理保健</a></li>
+                <li><a href="#">心理情感</a></li>
+                <li><a href="#">心理百科</a></li>
+                <li><a href="#">心理咨询</a></li>
+                <li><a href="#">心理测试</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="roll_img">
+        <a href="#"><img id="roll_img_1" src="images/roll_img1.jpg"></a>
+        <ul style="list-style:none" class="ul_lunbo">
+            <li id="1" onmouseover="lunbo(this.id)" style="color:orange"><div class="circle"></div></li>
+            <li id="2" onmouseover="lunbo(this.id)" style="color:orange"><div class="circle"></div></li>
+            <li id="3" onmouseover="lunbo(this.id)" style="color:orange"><div class="circle"></div></li>
+          </ul>
+    </div>
+
+    <div class="main">
+        <div class="main_content">
+            <div class="recommond">
+              <img style="float:left;margin-top:10px" src="images/little5.png">
+                <div style="padding:15px 0px;margin-left:38px;" ><strong>心理专家推荐</strong></div>
+                <div class="doctor">
+                    <div class="doctor_1_info">
+                        <hr>
+                        <p class="p1">医生信息</p>
+                        <hr>
+                        <pre>姓 名:郑 奇</pre>
+                        <pre>专业资质:国家二级心理咨询师</pre>
+                        <pre>资质证号:0518000008200075</pre>
+                        <pre>满意度:<div class="star_bg_1"></div>  4.95分</pre>
+                        <pre>回复速度:<div class="star_bg_1"></div>  4.90分</pre>
+                        <pre>在线时长:<div class="star_bg_1"></div>  4.90分</pre>
+                        <pre>服务时间:9:00~21:00</pre>
+                        <input type="button" value="在线咨询">
+                        <input type="submit" value="私信他" style="margin-left:3px">
+                    </div>
+
+
+
+                    <div class="doctor_all">
+                       <div id="doctor_top" onmouseenter="change(this.id)" onmouseleave="recover(this.id)">
+                        <img src="images/doctor_img_1.jpg">
+                        <p>何医生</p>
+                        <div class="star_bg">
+                        </div>
+                        <p>4.86分</p>
+                        <p>上海市第一人民医院</p>
+                        <p>已有<span>1990</span>人咨询</p>
+                        </div>
+                        <input type="button" value="在线咨询">
+                      <input type="submit" value="私信他" style="margin-left:3px">
+                    </div>
+
+                    <div class="doctor_all">
+                       <div id="doctor_top_1" onmouseenter="change(this.id)" onmouseleave="recover1(this.id)">
+                        <img src="images/doctor_img_2.jpg">
+                        <p>何医生</p>
+                        <div class="star_bg">
+                        </div>
+                        <p>4.86分</p>
+                        <p>上海市第一人民医院</p>
+                        <p>已有<span>1990</span>人咨询</p>
+                        </div>
+                        <input type="button" value="在线咨询">
+                      <input type="submit" value="私信他" style="margin-left:3px">
+                    </div>
+
+                    <div class="doctor_all">
+                       <div id="doctor_top_2" onmouseenter="change(this.id)" onmouseleave="recover2(this.id)">
+                        <img src="images/doctor_img_3.jpg">
+                        <p>何医生</p>
+                        <div class="star_bg">
+                        </div>
+                        <p>4.86分</p>
+                        <p>上海市第一人民医院</p>
+                        <p>已有<span>1990</span>人咨询</p>
+                        </div>
+                        <input type="button" value="在线咨询">
+                      <input type="submit" value="私信他" style="margin-left:3px">
+                    </div>
+
+                    <div class="doctor_all">
+                       <div id="doctor_top_3" onmouseenter="change(this.id)" onmouseleave="recover3(this.id)">
+                        <img src="images/doctor_img_4.jpg">
+                        <p>何医生</p>
+                        <div class="star_bg">
+                        </div>
+                        <p>4.86分</p>
+                        <p>上海市第一人民医院</p>
+                        <p>已有<span>1990</span>人咨询</p>
+                        </div>
+                        <input type="button" value="在线咨询">
+                      <input type="submit" value="私信他" style="margin-left:3px">
+                    </div>
+
+                </div>
+            </div>
+            <img src="images/long_img.png" style="width:100%">
+
+
+
+            <div class="page_1">
+
+              <div class="page_1_header">
+              <p style="margin-top:15px;margin-left:40px"><strong>心理保健</strong></p>
+              <ul>
+                <li id="btn_1" onclick="recoverBackground(this.id)" onmouseover="changeTitle(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">热门</a></li>
+                <li id="btn_2" onclick="changeBackground(this.id)"  onmouseover="changeTitle(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">心理常识</a></li>
+                <li id="btn_3" onclick="changeBackground1(this.id)" onmouseover="changeTitle(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">健康减压</a></li>
+                <li id="btn_4" onclick="changeBackground2(this.id)" onmouseover="changeTitle(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">宣泄室</a></li>
+              </ul>
+            </div>
+
+              <div class="page_1_content" id="page1_content">
+                <img class="page_1_img1" src="images/page1_img1.png" >
+                <img class="page_1_img2" src="images/page1_img2.png">
+                <img class="page_1_img3" style="margin-left:5px" src="images/page1_img3.png">
+                <ul class="ul1">
+                  <a href="#"><li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li></a>
+                  <li><span class="b">心理常识 记性不好？改善可以试试这六招</span></li>
+                  <li><span class="b">心理常识 没有忠诚 能力无足轻重</span></li>
+                  <li><span class="b">生活心理 早起的人更幸福 早起的好处</span></li>
+                  <li><span class="b">生活心理 这3句话你考虑越多 越拖后退</span></li>
+                  <li><span class="b">心理常识 研究称男性友谊可缓解压力</span></li>
+                </ul>
+                <div class="sidebar">
+                  <div class="sidebar_header">
+                    <p style="margin-left:15px">宣泄室</p>
+                    <a href="#"><p style="margin-left:230px">更多&gt;&gt;</p></a>
+                  </div>
+                  <div class="sidebar_content">
+                    <p><span class="little_font">[感情]</span><span class="big_font"> 离婚的十字路口，一个快30一无所有</span> <span class="little_font">4小时前</span></p>
+                    <p><span class="little_font">厌烦，互相不了解走到了今天。不知道还能坚持多久工作不稳定，婚宴不成功，没有孩子,没有孩子，还有什么惩罚......[<span style="color:red">详细</span>]</span></p>
+                    <p style="margin-top:15px;"><span class="little_font">[工作]</span><span class="big_font">太TMD不公平了</span> <span class="little_font">4小时前</span></p>
+                    <p><span class="little_font">什么东西，到底有没有价值观....[<span style="color:red">详细</span>]</span></p>
+                    <p style="margin-top:15px;"><span class="little_font">[感情]</span><span class="big_font"> 离婚的十字路口，一个快30一无所有</span> <span class="little_font">4小时前</span></p>
+                    <p><span class="little_font">厌烦，互相不了解走到了今天。不知道还能坚持多久工作不稳定，婚宴不成功，没有孩子,没有孩子，还有什么惩罚......[<span style="color:red">详细</span>]</span></p>
+                    <p style="margin-top:15px;"><span class="little_font">[感情]</span><span class="big_font"> 离婚的十字路口，一个快30一无所有</span> <span class="little_font">4小时前</span></p>
+                    <p><span class="little_font">厌烦，互相不了解走到了今天。不知道还能坚持多久工作不稳定，婚宴不成功，没有孩子,没有孩子，还有什么惩罚......[<span style="color:red">详细</span>]</span></p>
+                    <p style="margin-top:15px;"><span class="little_font">[工作]</span><span class="big_font">太TMD不公平了</span> <span class="little_font">4小时前</span></p>
+                    <p><span class="little_font">什么东西，到底有没有价值观....[<span style="color:red">详细</span>]</span></p>
+                  </div>
+                </div>
+                <div id="abc_1" style="display:none">
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+            <div class="page_1" style="margin-top:10px;" >
+
+              <div class="page_1_header" style="background-image: url('images/little2.png');
+                background-repeat: no-repeat;
+                background-position: 0px 8px;">
+              <p style="margin-top:15px;margin-left:40px"><strong>心理情感</strong></p>
+              <ul>
+                <li id="btn_1_1" onclick="recoverBackground_1()" onmouseover="changeTitle1(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">热门</a></li>
+                <li id="btn_2_2" onclick="changeBackground_1()" onmouseover="changeTitle1(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">婚恋心理</a></li>
+                <li id="btn_3_3" onclick="changeBackground1_1()" onmouseover="changeTitle1(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">成长心理</a></li>
+                <li id="btn_4_4" onclick="changeBackground2_1()" onmouseover="changeTitle1(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">职场心理</a></li>
+                <li id="btn_5_5" onclick="changeBackground3_1()" onmouseover="changeTitle1(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">人际交往</a></li>
+              </ul>
+            </div>
+
+              <div class="page_1_content" style=" border-top:2px solid #01A8A0">
+                <img class="page_1_img1" src="images/page2_img1.png" >
+                <img class="page_1_img2" src="images/page2_img2.png">
+                <img class="page_1_img3" style="margin-left:5px" src="images/page2_img3.png">
+                <ul class="ul2">
+                  <a href="#"><li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li></a>
+                  <li><span class="b">心理常识 记性不好？改善可以试试这六招</span></li>
+                  <li><span class="b">心理常识 没有忠诚 能力无足轻重</span></li>
+                  <li><span class="b">生活心理 早起的人更幸福 早起的好处</span></li>
+                  <li><span class="b">生活心理 这3句话你考虑越多 越拖后退</span></li>
+                  <li><span class="b">心理常识 研究称男性友谊可缓解压力</span></li>
+                </ul>
+                <div class="sidebar2">
+                <p>6小技巧战胜焦虑</p>
+                <ul class="ul3">
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+              </ul>
+              <img style="width:45%;margin-top:30px" src="images/page2_img4.png">
+              <img style="width:45%;margin-top:30px" src="images/page2_img5.png">
+                </div>
+                <div id="abc_2" style="display:none">
+                  </div>
+              </div>
+
+            </div>
+
+
+
+            <div class="page_1" style="margin-top:10px;" >
+
+              <div class="page_1_header" style="background-image: url('images/little3.png');
+                background-repeat: no-repeat;
+                background-position: 0px 8px;">
+              <p style="margin-top:15px;margin-left:40px"><strong>心理百科</strong></p>
+              <ul>
+                <li id="ben_1_1_1" onmouseover="changeTitle2(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">热门</a></li>
+                <li id="btn_2_2_2" onmouseover="changeTitle2(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">心灵鸡汤</a></li>
+                <li id="btn_3_3_3" onmouseover="changeTitle2(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">行为剖析</a></li>
+                <li id="btn_4_4_4" onmouseover="changeTitle2(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">好书推荐</a></li>
+                <li id="btn_5_5_5" onmouseover="changeTitle2(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">心灵图片</a></li>
+              </ul>
+            </div>
+
+              <div class="page_1_content" style=" border-top:2px solid rgb(231, 13, 111)">
+                <img class="page_1_img1" src="images/page3_img1.png" >
+                <img class="page_1_img2" src="images/page3_img2.png">
+                <img class="page_1_img3" style="margin-left:5px" src="images/page3_img3.png">
+                <ul class="ul4">
+                  <a href="#"><li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li></a>
+                  <li><span class="b">心理常识 记性不好？改善可以试试这六招</span></li>
+                  <li><span class="b">心理常识 没有忠诚 能力无足轻重</span></li>
+                  <li><span class="b">生活心理 早起的人更幸福 早起的好处</span></li>
+                  <li><span class="b">生活心理 这3句话你考虑越多 越拖后退</span></li>
+                  <li><span class="b">心理常识 研究称男性友谊可缓解压力</span></li>
+                </ul>
+                <div class="sidebar2">
+                <p style="color:rgb(231, 13, 111)">6小技巧战胜焦虑</p>
+                <ul class="ul5">
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+              </ul>
+              <img style="width:45%;margin-top:30px;" src="images/page3_img4.png">
+              <img style="width:45%;" src="images/page3_img5.png">
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="page_1" style="margin-top:10px;" >
+
+              <div class="page_1_header" style="background-image: url('images/little4.png');
+                background-repeat: no-repeat;
+                background-position: 0px 8px;">
+              <p style="margin-top:15px;margin-left:40px"><strong>心理咨询</strong></p>
+              <ul>
+                <li id="btn_1_1_1_1" onmouseover="changeTitle3(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">热门</a></li>
+                <li id="btn_2_2_2_2" onmouseover="changeTitle3(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">专家在线</a></li>
+                <li id="btn_3_3_3_3" onmouseover="changeTitle3(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">心理治疗</a></li>
+                <li id="btn_4_4_4_4" onmouseover="changeTitle3(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">心理互助</a></li>
+                <li id="btn_5_5_5_5" onmouseover="changeTitle3(this.id)" onmouseout="recoverTitle(this.id)"><a href="javascript:void(0)">心理测试</a></li>
+              </ul>
+            </div>
+
+              <div class="page_1_content" style=" border-top:2px solid #3a7ff5">
+                <img class="page_1_img1" src="images/page4_img1.png" >
+                <img class="page_1_img2" src="images/page4_img2.png">
+                <img class="page_1_img3" style="margin-left:5px" src="images/page4_img3.png">
+                <img  class="page_1_img4" src="images/page4_img4.png">
+                <img  class="page_1_img5" src="images/page4_img5.png">
+                <div class="sidebar2">
+                <p style="color:#3a7ff5">6小技巧战胜焦虑</p>
+                <ul class="ul6">
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+                <li><span class="b">心理常识 超级识谎术:抓住别人撒谎的七大对象</span></li>
+              </ul>
+              <img style="width:45%;margin-top:15px" src="images/page4_img6.png">
+              <img style="width:45%;margin-left:10px" src="images/page4_img7.png">
+                </div>
+              </div>
+            </div>
+
+            <div class="content_foot">
+              <input type="button" value="友情链接" class="foot_btn1" onclick="changefooter1()"><!--
+              --><input type="button" value="热门医院" class="foot_btn2" onclick="changefooter()">
+              <div class="link" id="foot_ul">
+                <pre>健康网     婚恋心理     心理咨询     精神咨询     中国心理健康网     职场心理学     平安健康心理     心理学     深圳网     医药卫生网     儿童自闭症     育儿网 精神咨询     中国心理健康网</pre>
+                <!-- <pre>精神咨询     健康网     职场心理学     平安健康心理     深圳网     中国心理健康网     儿童自闭症     心理学     育儿网     婚恋心理     心理咨询     医药卫生网     中国心理健康网     育儿网</pre>
+                <pre>ROM之家     37精神科</pre> -->
+              </div>
+            </div>
+        </div>
+
+        <footer>
+          <pre class="footer_pre">公司介绍        广告服务            健康信息增值服务            健康管理服务            业务合作            加入我们            网站生命            联系我们        帮助</pre>
+          <pre class="footer_pre_1">本站旨在提供心理咨询互动交流平台，咨询师以网友言论仅代表个人观点，不代表本站同意其说法，请谨慎参阅，本站不承担由此产生的法律责任</pre>
+        </footer>
+    </div>
+
+</body>
+
+</html>
